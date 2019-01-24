@@ -1,9 +1,4 @@
-Year,World Population,"Yearly
-Change","Net
-Change","Density
-(P/Km²)","Urban
-Pop","Urban
-Pop %"
+Year,World Population,"Yearly Change","Net Change","Density(P/Km²)","Urban Pop","Urban Pop %"
 2019,"7,714,576,923",1.07 %,"81,757,598",52,"4,262,736,048",55 %
 2018,"7,632,819,325",1.09 %,"82,557,224",51,"4,186,975,665",55 %
 2017,"7,550,262,101",1.12 %,"83,297,821",51,"4,110,778,369",54 %
