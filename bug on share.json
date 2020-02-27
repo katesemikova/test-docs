@@ -1,0 +1,470 @@
+﻿{
+  "_id": "5b881b91b3a2000007ca5883",
+  "owner": "5b880d141ecc9a002fab90dd",
+  "app": "trello",
+  "_cls": "hermione.models.filter.Filter",
+  "query": {
+    "dimensions": [
+      {
+        "formula": {
+          "ref": "url"
+        },
+        "id": "__app__link__"
+      },
+      {
+        "formula": {
+          "ref": "badges",
+          "calculation": "attachments",
+          "fn": "calculation"
+        },
+        "id": "attachments"
+      },
+      {
+        "formula": {
+          "prop": "name",
+          "ref": "idBoard",
+          "fn": "list",
+          "list": "meta"
+        },
+        "id": "board"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b1534015c4b17aed8ea2a2f",
+              "n": "Canal",
+              "o": {
+                "5b1534015c4b17aed8ea2a33": "Site RH",
+                "5b1534015c4b17aed8ea2a31": "Cabinet",
+                "5b1534015c4b17aed8ea2a36": "APEC",
+                "5b1534015c4b17aed8ea2a32": "Indeed",
+                "5b1534015c4b17aed8ea2a34": "CV ADEN",
+                "5b1534015c4b17aed8ea2a30": "Forum Recrutement",
+                "5b1539f20dd338a09a177f46": "Cooptation",
+                "5b1534015c4b17aed8ea2a35": "Linkedin",
+                "5b606ac7860b803132e6a1b7": "Stagiaire"
+              }
+            },
+            {
+              "i": "5b27a7b9af443ea5ec359761",
+              "n": "Canal",
+              "o": {
+                "5b27a7b9af443ea5ec359769": "Cooptation",
+                "5b606af0077aa330f0f47659": "Stagiaire",
+                "5b27a7b9af443ea5ec359768": "Forum Recrutement",
+                "5b27a7b9af443ea5ec359765": "Site RH",
+                "5b27a7b9af443ea5ec359763": "Linkedin",
+                "5b27a7b9af443ea5ec359766": "Indeed",
+                "5b27a7b9af443ea5ec359767": "Cabinet",
+                "5b27a7b9af443ea5ec359764": "CV ADEN",
+                "5b27a7b9af443ea5ec359762": "APEC"
+              }
+            }
+          ]
+        },
+        "id": "canal-cf-list"
+      },
+      {
+        "formula": {
+          "ref": "closed",
+          "fn": "booleanToString"
+        },
+        "id": "closed"
+      },
+      {
+        "formula": {
+          "ref": "badges",
+          "calculation": "comments",
+          "fn": "calculation"
+        },
+        "id": "comments"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b15419918c6ff805afd18fd",
+              "n": "Contractualisation",
+              "o": {
+                "5b1541d4ea1e292038b35c16": "Entrée effective",
+                "5b15419918c6ff805afd18fe": "Proposition émise",
+                "5b1541ac0bbe935b0a54c7e4": "Proposition refusée",
+                "5b1541ce224e48146b861ec0": "Proposition acceptée",
+                "5b879dab0ac4e51c79811bc5": "Désistement après acceptation"
+              }
+            },
+            {
+              "i": "5b27a7db90339f0b0846a14c",
+              "n": "Contractualisation",
+              "o": {
+                "5b27a7db90339f0b0846a151": "Entrée effective",
+                "5b27a7db90339f0b0846a14e": "Proposition émise",
+                "5b27a7db90339f0b0846a150": "Proposition acceptée",
+                "5b27a7db90339f0b0846a14f": "Proposition refusée"
+              }
+            }
+          ]
+        },
+        "id": "contractualisation-cf-list"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "fn": "parseMongoDate"
+        },
+        "id": "created"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b153904c3ab64364b9acfa1",
+              "n": "Date d'entrée prévisionnelle"
+            },
+            {
+              "i": "5b27a7b9af443ea5ec35975f",
+              "n": "Date d'entrée prévisionnelle"
+            }
+          ]
+        },
+        "id": "date d'entrée prévisionnelle-cf-date"
+      },
+      {
+        "id": "due"
+      },
+      {
+        "formula": {
+          "ref": "dueComplete",
+          "fn": "booleanToString"
+        },
+        "id": "dueComplete"
+      },
+      {
+        "formula": {
+          "ref": "id"
+        },
+        "id": "entity_id"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b83b4864f1e595bf54933f1",
+              "n": "Expérience",
+              "o": {
+                "5b8819878539302b07cca6f0": "< 2 ans",
+                "5b83b4864f1e595bf54933f6": "> 12 ans",
+                "5b83b4864f1e595bf54933f5": "< 12 ans",
+                "5b83b4864f1e595bf54933f4": "< 5 ans"
+              }
+            },
+            {
+              "i": "5b27a7b9af443ea5ec35976a",
+              "n": "Expérience",
+              "o": {
+                "5b27a7b9af443ea5ec35976e": "Senior Consultant",
+                "5b27a7b9af443ea5ec35976f": "Director",
+                "5b27a7b9af443ea5ec35976b": "Junior",
+                "5b27a7b9af443ea5ec35976d": "Managing Consultant",
+                "5b27a7b9af443ea5ec35976c": "Experienced Consultant"
+              }
+            }
+          ]
+        },
+        "id": "expérience-cf-list"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b6ac80235b8c54a1dbe2323",
+              "n": "Go No Go",
+              "o": {
+                "5b6ad06b638c226f72759028": "BCase Arrêt Candidat",
+                "5b6ac80235b8c54a1dbe2324": "Rendez-vous 3 Arrêt Candidat",
+                "5b6ac80235b8c54a1dbe232a": "Rendez-vous 1 No Go",
+                "5b6ac80235b8c54a1dbe2327": "BCase No Go",
+                "5b6ac80235b8c54a1dbe2329": "Rendez-vous 2 No Go",
+                "5b6ac80235b8c54a1dbe2326": "Rendez-vous 1 Arrêt Candidat",
+                "5b6ac80235b8c54a1dbe2325": "Rendez-vous 2 Arrêt Candidat",
+                "5b6ac80235b8c54a1dbe2328": "Rendez-vous 3 No Go"
+              }
+            }
+          ]
+        },
+        "id": "go no go-cf-list"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b1532ef28247a2be449d409",
+              "n": "Groupe Ecole",
+              "o": {
+                "5b1532ef28247a2be449d40d": "A+",
+                "5b1532ef28247a2be449d40a": "D",
+                "5b1532ef28247a2be449d40e": "A",
+                "5b1532ef28247a2be449d40c": "B",
+                "5b1532ef28247a2be449d40b": "C"
+              }
+            },
+            {
+              "i": "5b27a7b9af443ea5ec359770",
+              "n": "Groupe Ecole",
+              "o": {
+                "5b27a7b9af443ea5ec359775": "D",
+                "5b27a7b9af443ea5ec359771": "A",
+                "5b27a7b9af443ea5ec359772": "A+",
+                "5b27a7b9af443ea5ec359774": "C",
+                "5b27a7b9af443ea5ec359773": "B"
+              }
+            }
+          ]
+        },
+        "id": "groupe ecole-cf-list"
+      },
+      {
+        "id": "id"
+      },
+      {
+        "formula": {
+          "prop": [
+            "name",
+            "color"
+          ],
+          "ref": "idLabels",
+          "fn": "list",
+          "list": "labels"
+        },
+        "id": "labels"
+      },
+      {
+        "formula": {
+          "prop": "name",
+          "ref": "idList",
+          "fn": "list",
+          "list": "lists"
+        },
+        "id": "list"
+      },
+      {
+        "formula": {
+          "prop": "pos",
+          "ref": "idList",
+          "fn": "list",
+          "list": "lists"
+        },
+        "id": "listRank"
+      },
+      {
+        "formula": {
+          "prop": [
+            "fullName",
+            "email"
+          ],
+          "ref": "idMembers",
+          "fn": "list",
+          "list": "members"
+        },
+        "id": "members"
+      },
+      {
+        "formula": {
+          "ref": "idMembers",
+          "calculation": "length",
+          "fn": "calculation"
+        },
+        "id": "membersCount"
+      },
+      {
+        "formula": {
+          "prop": [
+            "fullName",
+            "email"
+          ],
+          "ref": "idMembersVoted",
+          "fn": "list",
+          "list": "members"
+        },
+        "id": "membersVoted"
+      },
+      {
+        "formula": {
+          "ref": "idMembersVoted",
+          "calculation": "length",
+          "fn": "calculation"
+        },
+        "id": "membersVotedCount"
+      },
+      {
+        "id": "name"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b6483febd55424fc8f2acc9",
+              "n": "Nationalité",
+              "o": {
+                "5b680fea4baa046c418dcf7a": "Camerounaise",
+                "5b6483febd55424fc8f2acca": "Française",
+                "5b64840b0cb0061dd16560c5": "Tunisienne",
+                "5b680fed444dfb8ee7faa758": "Algérienne",
+                "5b680fd7ec29200831a5a689": "Mauritanienne",
+                "5b680fdd12cb66371e00b7fd": "Espagnole",
+                "5b648412799b1f7f765e227f": "Marocaine",
+                "5b680fe190100e2e6a833a23": "Italienne",
+                "5b6811788083eb2d143f39ba": "Sénégalaise"
+              }
+            },
+            {
+              "i": "5b7ab0e41aad0e4bc8a27410",
+              "n": "Nationalité",
+              "o": {
+                "5b7ab0e41aad0e4bc8a27415": "Espagnole",
+                "5b7ab0e41aad0e4bc8a27418": "Sénégalaise",
+                "5b7ab0e41aad0e4bc8a27411": "Française",
+                "5b7ab0e41aad0e4bc8a27419": "Tunisienne",
+                "5b7ab0e41aad0e4bc8a27414": "Camerounaise",
+                "5b7ab0e41aad0e4bc8a27413": "Algérienne",
+                "5b7ab0e41aad0e4bc8a27417": "Mauritanienne",
+                "5b7ab0e41aad0e4bc8a27416": "Italienne",
+                "5b7ab0e41aad0e4bc8a27412": "Marocaine"
+              }
+            }
+          ]
+        },
+        "id": "nationalité-cf-list"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b6ac858e5a25732b652f2f9",
+              "n": "Probabilité d'entrée",
+              "o": {
+                "5b6ac8617cfba938282d2d10": "Nulle",
+                "5b6ac875b623812393707a44": "Forte",
+                "5b6ac86cb080703b8afe766f": "Faible",
+                "5b6ac873fd5202617a1e49ff": "Moyenne",
+                "5b6ac88169e68c50e8b1f73c": "Sûre"
+              }
+            },
+            {
+              "i": "5b7ab0e41aad0e4bc8a27409",
+              "n": "Probabilité d'entrée",
+              "o": {
+                "5b7ab0e41aad0e4bc8a2740e": "Forte",
+                "5b7ab0e41aad0e4bc8a2740b": "Nulle",
+                "5b7ab0e41aad0e4bc8a2740f": "Sûre",
+                "5b7ab0e41aad0e4bc8a2740d": "Moyenne",
+                "5b7ab0e41aad0e4bc8a2740c": "Faible"
+              }
+            }
+          ]
+        },
+        "id": "probabilité d'entrée-cf-list"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b27a7db90339f0b0846a152",
+              "n": "Probabilité d'entrée"
+            }
+          ]
+        },
+        "id": "probabilité d'entrée-cf-number"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b1540ca71e048ed2367967c",
+              "n": "Rdz-vs",
+              "o": {
+                "5b1540ca71e048ed2367967d": "3",
+                "5b1540ca71e048ed2367967f": "1",
+                "5b1540ca71e048ed2367967e": "2"
+              }
+            },
+            {
+              "i": "5b323a145714132438c1a12c",
+              "n": "Rdz-vs",
+              "o": {
+                "5b323a145714132438c1a12f": "2",
+                "5b323a145714132438c1a12e": "1",
+                "5b323a145714132438c1a130": "3"
+              }
+            }
+          ]
+        },
+        "id": "rdz-vs-cf-list"
+      },
+      {
+        "formula": {
+          "ref": "id",
+          "customField": [
+            {
+              "i": "5b15335b218fe987c75f653c",
+              "n": "Séniorité",
+              "o": {
+                "5b15335b218fe987c75f653d": "Director",
+                "5b15335b218fe987c75f6541": "Junior",
+                "5b15335b218fe987c75f653e": "Senior Consultant",
+                "5b15335b218fe987c75f653f": "Managing Consultant",
+                "5b15335b218fe987c75f6540": "Experienced Consultant",
+                "5b6a95eb29468383ddd1a387": "Senior Manager"
+              }
+            },
+            {
+              "i": "5b7ab0e41aad0e4bc8a2741a",
+              "n": "Séniorité",
+              "o": {
+                "5b7ab0e41aad0e4bc8a2741f": "Senior Manager",
+                "5b7ab0e41aad0e4bc8a2741e": "Managing Consultant",
+                "5b7ab0e41aad0e4bc8a27420": "Director",
+                "5b7ab0e41aad0e4bc8a2741d": "Senior Consultant",
+                "5b7ab0e41aad0e4bc8a2741b": "Junior",
+                "5b7ab0e41aad0e4bc8a2741c": "Experienced Consultant"
+              }
+            }
+          ]
+        },
+        "id": "séniorité-cf-list"
+      },
+      {
+        "formula": {
+          "ref": "badges",
+          "calculation": "checkItems",
+          "fn": "calculation"
+        },
+        "id": "tasks"
+      },
+      {
+        "formula": {
+          "ref": "badges",
+          "calculation": "checkItemsChecked",
+          "fn": "calculation"
+        },
+        "id": "tasksDone"
+      }
+    ]
+  },
+  "boards": [
+    "5b1011fb3cf7ea912a9412a2",
+    "5b1543901971fe57dd2fda21"
+  ],
+  "source": "cards"
+}
