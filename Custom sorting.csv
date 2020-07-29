@@ -1,0 +1,68 @@
+﻿Id,Name,List,Count of tasks,Count of complete tasks,Count of Members,Count of attachments,Count of comments,Voters,Count of Votes,Closed (Archived),Created Date,Due Date,Due Complete,Board,Archived On,List Archived,Labels,Assigned Members,Cost,Currency Rate,State,Currency
+5f21aba533cc7f36cec68ece,C1-13,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,15-Dec-2019 09:00:00,Yes,Test Pies sorting,,No,,,2086,2.05,Done,Br
+5f21aba533cc7f36cec68ed2,C2-4,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,170.9,2.14,Done,Br
+5f21aba533cc7f36cec68f42,C2-15,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,54.98,2.13,Done,Br
+5f21aba533cc7f36cec68fb5,C3-14,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,580,2.14,Done,Br
+5f21aba533cc7f36cec68ec6,C1-11,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,7612,2.1,Done,Br
+5f21aba533cc7f36cec68fdb,C1-10,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,30-Jun-2020 09:02:00,Yes,Test Pies sorting,,No,,,1950,2.36,Done,Br
+5f21aba533cc7f36cec68f6e,C2-25,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,152,2.13,Done,Br
+5f21aba533cc7f36cec68f08,C3-8,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,300,,Done,$
+5f21aba533cc7f36cec68f44,C2-19,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,15,2.13,Done,Br
+5f21aba533cc7f36cec68f8c,C2-29,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,0,,Done,
+5f21aba533cc7f36cec68f1a,C1-6,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68f64,C2-22,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,640,2.12,Done,Br
+5f21aba533cc7f36cec68f06,C3-7,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,383,,Done,$
+5f21aba533cc7f36cec68f1e,C1-8,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68ec4,C1-12,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,22-Nov-2019 09:00:00,Yes,Test Pies sorting,,No,,,621,2.04,Done,Br
+5f21aba533cc7f36cec68f0a,C3-9,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,1430,3.73,Done,zł
+5f21aba533cc7f36cec68f70,C2-26,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,65,2.11,Done,Br
+5f21aba533cc7f36cec68eda,C2-7,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,60,2.12,Done,Br
+5f21aba533cc7f36cec68fcf,C1-19,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,29-Mar-2020 10:54:00,Yes,Test Pies sorting,,No,,,1212,2.5,Done,Br
+5f21aba533cc7f36cec68f48,C2-16,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,27.21,2.13,Done,Br
+5f21aba533cc7f36cec68f3e,C2-3,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,224.48,2.11,Done,Br
+5f21aba533cc7f36cec68f10,C3-13,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,1752,2.57,Done,Br
+5f21aba533cc7f36cec68f3c,C3-3,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68ec2,C1-2,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68f16,C2-13,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,24-Oct-2019 09:00:00,Yes,Test Pies sorting,,No,,,284,2.04,Done,Br
+5f21aba533cc7f36cec68f04,C3-6,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,4429,2,Done,Br
+5f21aba533cc7f36cec68fc7,C1-18,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,14-Dec-2019 09:00:00,Yes,Test Pies sorting,,No,,,36,2.1,Done,Br
+5f21aba533cc7f36cec68fb9,C3-4,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68f6a,C2-23,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,2503.28,1.97,Done,Br
+5f21aba533cc7f36cec68edc,C2-8,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,0,,Done,$
+5f21aba533cc7f36cec68fd1,C1-20,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,136.5,2.44,Done,Br
+5f21aba533cc7f36cec68ecc,C1-5,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68f3a,C3-2,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68ed0,C1-14,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,29-Feb-2020 09:00:00,Yes,Test Pies sorting,,No,,,1600,,Done,$
+5f21aba533cc7f36cec68fbf,C1-17,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,254,2.09,Done,Br
+5f21aba533cc7f36cec68ed8,C2-10,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,30,2.12,Done,Br
+5f21aba533cc7f36cec68fd3,C1-9,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68eca,C1-4,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68f50,C2-20,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,200,1.97,Done,Br
+5f21aba533cc7f36cec68ec8,C1-3,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68fbd,C3-5,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68eec,C2-9,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,513,3.63,Done,zł
+5f21aba533cc7f36cec68f46,C2-18,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,61.68,2.13,Done,Br
+5f21aba533cc7f36cec68f74,C2-27,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,288.72,2.16,Done,Br
+5f21aba533cc7f36cec68f0c,C3-10,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,1400,,Done,zł
+5f21aba533cc7f36cec68f0e,C3-11,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,1300,3.73,Done,zł
+5f21aba533cc7f36cec68f4a,C2-17,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,44.98,2.13,Done,Br
+5f21aba533cc7f36cec68f66,C1-15,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,30-Apr-2020 05:50:00,Yes,Test Pies sorting,,No,,,4202,2.4,Done,Br
+5f21aba533cc7f36cec68ef6,C2-11,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,304.88,3.73,Done,zł
+5f21aba533cc7f36cec68f7e,C2-28,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,30,2.11,Done,Br
+5f21aba533cc7f36cec68f6c,C2-24,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,206,2.1,Done,Br
+5f21aba533cc7f36cec68fc9,C1-12,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,642,2.04,Done,Br
+5f21aba533cc7f36cec68ec0,C1-1,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68f92,C2-31,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,630,2.15,Done,Br
+5f21aba533cc7f36cec68f76,C1-16,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,172,2.11,Done,Br
+5f21aba533cc7f36cec68f84,C2-2,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,454,2.38,In Progress,Br
+5f21aba533cc7f36cec68f62,C2-21,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,60,2.11,Done,Br
+5f21aba533cc7f36cec68f40,C2-14,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,2.54,2.13,Done,Br
+5f21aba533cc7f36cec68f72,C2-26,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,72,2.1,Done,Br
+5f21aba533cc7f36cec68f12,C3-1,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68f82,C2-1,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68faf,C2-30,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,17-May-2020 09:00:00,Yes,Test Pies sorting,,No,,,540,2.32,Done,Br
+5f21aba533cc7f36cec68ed4,C2-5,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,640,2.13,Done,Br
+5f21aba533cc7f36cec68ef8,C2-12,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,426,4.1,Done,zł
+5f21aba533cc7f36cec68fbb,C3-12,Category 3,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,1072,2.1,Done,Br
+5f21aba533cc7f36cec68f1c,C1-7,Category 1,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,,,To do,
+5f21aba533cc7f36cec68ed6,C2-6,Category 2,0,0,0,0,0,,0,No,29-Jul-2020 17:02:29,,No,Test Pies sorting,,No,,,2332.44,2.09,Done,Br
